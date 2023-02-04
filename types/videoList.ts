@@ -12,5 +12,6 @@ export interface IVideo {
 
 export interface IVideoAttr {
     title: string,
-    preview_src: string
+    preview_src: string,
+    big_poster: string
 }

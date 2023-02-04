@@ -18,7 +18,7 @@ export const getVideoList = createAsyncThunk(
   }
 );
 
-export const counterSlice = createSlice({
+export const videoListSlice = createSlice({
   name: 'videoList',
   initialState,
   reducers: {},
@@ -38,7 +38,6 @@ export const counterSlice = createSlice({
   },
 })
 
-// Selector
 export const selectedValue = (state: RootState) => state.videoList
 
-export default counterSlice.reducer
+export default videoListSlice.reducer

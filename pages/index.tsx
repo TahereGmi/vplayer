@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import type {} from 'redux-thunk/extend-redux';
-
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 const Home = () => {
   return (
@@ -19,13 +18,12 @@ const Home = () => {
           Home Page
         </h1>
 
-        <p className={styles.description}>
-          links:
+        <h3 className={styles.description}>
           <Link 
-            href='/blog'>
-            Video List
+            href='/video-list'>
+            Go to Video List
           </Link>
-        </p>
+        </h3>
       </main>
 
     </div>
